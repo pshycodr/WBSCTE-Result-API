@@ -48,6 +48,11 @@ serverless deploy
 # Your API endpoint will be shown in the terminal
 ```
 
+#### To test this locally before deploying
+add your registration number in `event.json` file and run the following command
+```bash
+ serverless invoke local -f getResult --path event.json
+```
 
 
 ## 🛠 Tech Stack
