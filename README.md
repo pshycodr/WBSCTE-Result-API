@@ -35,7 +35,7 @@ npm install
 npm install -g serverless
 ```
 
-#### Then Export youe AWS **"IAM"** credentials with
+#### Then Export your AWS **"IAM"** credentials with
 ```bash
 export AWS_ACCESS_KEY=
 export AWS_SECRET_ACCESS_KEY=
