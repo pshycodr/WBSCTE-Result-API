@@ -25,7 +25,7 @@ Fetches student results from the WBSCTE official result portal.
 git clone https://github.com/pshycodr/WBSCTE-Result-API.git
 ```
 
-#### Then `cd WBSCTE-Result-API.git` into the directory do a
+#### Then `cd WBSCTE-Result-API` into the directory do a
 ```bash
 # Install dependencies
 npm install
