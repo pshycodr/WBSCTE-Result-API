@@ -54,6 +54,16 @@ add your registration number in `event.json` file and run the following command
  serverless invoke local -f getResult --path event.json
 ```
 
+### Test The api after deploy
+**Send a POST request with this Body**
+```bash
+{
+    "reg_no" : "your reg. no.",
+    "ph_no" : "your phone number"
+}
+
+```
+
 
 ## 🛠 Tech Stack
 - **Node.js** (Serverless Functions)
