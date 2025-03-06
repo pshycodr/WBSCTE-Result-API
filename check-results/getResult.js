@@ -8,13 +8,16 @@ exports.getResult = async (event) => {
         console.log("Received event:", JSON.stringify(event, null, 2));
 
         let reg_no;
+        let ph_no;
 
         
         if (event.body) {
             const body = JSON.parse(event.body);
             reg_no = body.reg_no;
+            ph_no = body.ph_no
         } else {
             reg_no = event.reg_no;
+            ph_no = event.ph_no;
         }
 
         if (!reg_no) {
@@ -30,7 +33,8 @@ exports.getResult = async (event) => {
                 'view_status': '592d773e83653c5c077b55f7f5ac50a7',
                 'roll': '',
                 'no': '',
-                'reg_no': reg_no
+                'reg_no': reg_no,
+                'ph_no' : ph_no
             }),
             {
                 headers: {
